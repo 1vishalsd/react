@@ -21,17 +21,19 @@ const ReactElement = {
 };
 */
 
+const anotherUser = " hello world";
 const reactElement = React.createElement(
   "a",
   {
     href: "https://google.com",
     target: "_blank",
   },
-  "Click Me to visit google"
+  "Click Me to visit google",
+  anotherUser
 );
 const anotherElement = (
   <a href="https://google.com" target="_blank">
     Visit Google
   </a>
 );
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(reactElement);
