@@ -1,15 +1,25 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const username = " Hello World";
+  const avatar = {
+    src: "./image.jpg",
 
+    style: {
+      width: "73px",
+      borderRadius: "4rem",
+      height: "73px",
+      margin: "4px",
+    },
+  };
   return (
     <>
-      <h1>Good Morning :{username}</h1>
-      <p>test Para</p>
+      <h1>These are The World Famous doctor's</h1>
+      <img src={avatar.src} style={avatar.style} />
+
+      <img src={avatar.src} style={avatar.style} />
+      <img src={avatar.src} style={avatar.style} />
     </>
   );
 }
