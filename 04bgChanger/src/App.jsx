@@ -1,7 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
 function App() {
   const [color, setColor] = useState("olive");
@@ -11,7 +8,7 @@ function App() {
       <div className="  fixed flex flex-wrap justify-center bottom-20 inset-x-0 px-2 text-white">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
           <button
-            className="rounded-2xl px-3 pb-1 "
+            className=" rounded-2xl px-3 pb-1 "
             style={{ backgroundColor: "red" }}
             onClick={() => setColor("red")}
           >
