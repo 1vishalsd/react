@@ -42,6 +42,13 @@ function App() {
           >
             Orange
           </button>
+          <button
+            className="rounded-2xl px-3 pb-1 "
+            style={{ backgroundColor: "gray" }}
+            onClick={() => setColor("gray")}
+          >
+            gray
+          </button>
         </div>
       </div>
     </div>
